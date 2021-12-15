@@ -87,7 +87,7 @@ header nav a {
 /* INFOS */
 .infos .container {
   width: 80%;
-  height: 70vh;
+  height: 100vh;
 
   margin: 0 auto;
   background-color: red;
