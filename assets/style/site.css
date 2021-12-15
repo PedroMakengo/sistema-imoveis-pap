@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Poppins;
+}
+
+header {
+  height: 10vh;
+  background: #ad8201;
+}
+
+header .container {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+
+header .logo h1 {
+  color: #fff;
+}
+
+header nav {
+  width: 60%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav a {
+  color: #fff;
+  padding: 0 2rem;
+
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.banner {
+  background: #ad8201;
+  height: 40vh;
+}
+
+/* SECTION IMOVEIS */
+.imoveis .container {
+  width: 80%;
+  height: 30vh;
+
+  margin: 0 auto;
+
+  background-color: #fff;
+
+  margin-top: -35px;
+}
