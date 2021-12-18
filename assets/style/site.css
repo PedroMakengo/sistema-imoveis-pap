@@ -99,7 +99,7 @@ header nav a {
 /* INFOS */
 .infos .container {
   width: 80%;
-  height: 100vh;
+  /* height: ; */
 
   margin: 0 auto;
 
@@ -143,7 +143,12 @@ header nav a {
 
 /* SIMULAÇÃO DE ALUGUER */
 .testemunhos {
+  /* height: 50vh; */
+}
+
+.testemunhos .mapa {
   height: 50vh;
+  margin-bottom: 2rem;
 }
 .testemunhos .container {
   width: 80%;
