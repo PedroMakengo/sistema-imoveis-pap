@@ -5,9 +5,106 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login | SAVI</title>
+    <style>
+      body {
+        margin: 0 auto;
+        background: url(assets/image/casa.jpg);
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-family: Poppins;
+      }
+
+      .form-criar-conta {
+        width: 50%;
+        height: 100vh;
+        background: #fff;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .form-criar-conta h1 {
+        margin: 1rem;
+      }
+
+      .form-criar-conta form {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .form-criar-conta form input {
+        width: 45%;
+        padding: 1.3rem 1rem;
+        box-sizing: border-box;
+        margin: 0.5rem 1rem;
+
+        border: 1px solid #0c788b;
+        border-radius: 0.25rem;
+        color: #0c788b;
+
+        font-family: Poppins;
+      }
+
+      .form-criar-conta form input[type="submit"] {
+        width: 20%;
+        background: #0c788b;
+        color: #fff;
+        font-weight: bold;
+      }
+
+      .form-criar-conta form input::placeholder {
+        font-size: 1rem;
+        color: #0c788b;
+      }
+
+      .descricao {
+        margin: 4rem;
+      }
+
+      .descricao a {
+        background-color: #0c788b;
+        display: block;
+        width: 130px;
+
+        text-align: center;
+        padding: 0.5rem 1rem;
+
+        border-radius: 0.25rem;
+        color: #fff;
+
+        text-decoration: none;
+      }
+
+      .descricao a::after {
+        content: "";
+      }
+
+      .conta {
+        margin: 0 1rem;
+      }
+
+      .conta a {
+        color: #0c788b;
+        text-decoration: none;
+      }
+    </style>
   </head>
   <body>
+    <div class="descricao">
+      <a href="index.html">Voltar</a>
+      <h1>
+        Uma forma fácil <br />
+        de alugar um imóvel
+      </h1>
+    </div>
     <div class="form-criar-conta">
+      <h1>Criar conta</h1>
       <form action="">
         <input type="name" class="form-input" placeholder="Nome Completo" />
         <input type="tel" class="form-input" placeholder="Número de Telefone" />
@@ -15,6 +112,10 @@
         <input type="password" class="form-input" placeholder="**********" />
         <input type="submit" value="Iniciar sessão" name="login" />
       </form>
+
+      <div class="conta">
+        <p>Já tens uma conta ? <a href="login.html">Iniciar a sessão</a></p>
+      </div>
     </div>
   </body>
 </html>
