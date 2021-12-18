@@ -5,6 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login | SAVI</title>
+    <style>
+      body {
+        margin: 0 auto;
+        background: url(assets/image/casa.jpg);
+        background-size: cover;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        font-family: Poppins;
+      }
+
+      .form-login {
+        width: 30%;
+        height: 100vh;
+
+        background: #fff;
+
+        display: flex;
+        align-items: center;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        padding: 2rem;
+      }
+
+      form input {
+        width: 100%;
+        padding: 1rem 1rem;
+
+        box-sizing: border-box;
+
+        margin-bottom: 1rem;
+
+        border-radius: 0.25rem;
+        border: 1px solid #0c788b;
+
+        font-family: Poppins;
+
+        color: #0c788b;
+      }
+
+      form input[type="submit"] {
+        background-color: #0c788b;
+        color: #fff;
+
+        font-weight: bold;
+      }
+
+      form input::placeholder {
+        color: #0c788b;
+      }
+    </style>
   </head>
   <body>
     <div class="form-login">
@@ -13,6 +72,10 @@
         <input type="password" class="form-input" placeholder="**********" />
         <input type="submit" value="Iniciar sessão" name="login" />
       </form>
+    </div>
+    <div>
+      <h1>Iniciar sessão</h1>
+      <h2>Sistema de Vendas de Imóveis</h2>
     </div>
   </body>
 </html>
