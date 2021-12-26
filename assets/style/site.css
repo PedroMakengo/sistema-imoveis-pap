@@ -8,7 +8,7 @@ body {
 
 header {
   height: 14vh;
-  background: #0c788b;
+  background: #0e7bb9;
 }
 
 header .container {
@@ -81,7 +81,7 @@ header nav a {
 }
 
 .imoveis .container .item-imovel {
-  background-color: #0c788b;
+  background-color: #0e7bb9;
   width: 50%;
   height: 50%;
   margin-right: 1rem;
@@ -157,7 +157,7 @@ header nav a {
 
 footer {
   /* height: 40vh; */
-  background-color: #0c788b;
+  background-color: #0e7bb9;
 }
 
 footer .container {
