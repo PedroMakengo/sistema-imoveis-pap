@@ -35,6 +35,11 @@
 .menu-sidebar__content li.active a,
 .menu-sidebar__content li a:hover {
   color: #fff !important;
+  font-weight: bold;
+}
+
+.list-unstyled a {
+  color: #fff !important;
 }
 
 .borda-icons {
