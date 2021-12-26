@@ -1,5 +1,7 @@
 .banner-dashboard {
-  background: linear-gradient(#212121b6, #212121b6), url(../images/bg-3.webp);
+  background: linear-gradient(#0e7ab9b2, #0e7ab9b2), url(../image/casa.jpg);
+  background-position: center;
+  background-size: cover;
   height: 250px;
   margin-top: -55px;
 }
@@ -7,7 +9,7 @@
 .dash-aside-bg,
 .menu-sidebar__content {
   box-shadow: none !important;
-  background: #212121 !important;
+  background: #0e7bb9 !important;
   border: none !important;
 }
 
@@ -45,7 +47,7 @@
   width: 60px;
   height: 60px;
   text-align: center;
-  background: #212121;
+  background: #0e7bb9;
 }
 
 .borda-icons i {
@@ -62,7 +64,7 @@
 .borda-img {
   width: 90px;
   height: 90px;
-  background: #212121;
+  background: #0e7bb9;
 
   border-radius: 50%;
 
@@ -82,7 +84,7 @@
 
 /* Forms */
 .profile-user input {
-  border: 1.5px solid #169db4 !important;
+  border: 1.5px solid #0e7bb9 !important;
   padding: 15px !important;
 }
 

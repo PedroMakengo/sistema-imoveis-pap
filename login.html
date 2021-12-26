@@ -26,10 +26,15 @@
 
         display: flex;
         align-items: center;
+        flex-direction: column;
+        justify-content: center;
+
+        padding: 0 2rem ;
       }
 
       form {
         display: flex;
+        /* justify-content: ; */
         flex-direction: column;
 
         width: 100%;
@@ -63,18 +68,49 @@
       form input::placeholder {
         color: #0c788b;
       }
+
+      .sistema-link {
+        display: block;
+        color: #000;
+        text-decoration: none;
+        align-items: center;
+        text-align: center;
+      }
+
+      .sistema-link h2 {
+        font-size: Poppins, sans-serif !important;
+      }
+
+
+      /* CONTENT-LOGIN */
+      .content-login {
+        width: 70%;
+        padding: 0 3rem;
+
+        text-transform: uppercase;
+      }
+
+      .content-login h1 {
+        font-size: 5rem;
+        margin: 0;
+      }
     </style>
   </head>
   <body>
     <div class="form-login">
+      <a href="index.html" class="sistema-link">
+        <h2>SAVI</h2>
+        <p>Sistema de Venda de Imóveis</p>
+      </a>
       <form action="">
         <input type="email" class="form-input" placeholder="E-mail" />
         <input type="password" class="form-input" placeholder="**********" />
         <input type="submit" value="Iniciar sessão" name="login" />
       </form>
+      <p>Ainda não tens uma conta ?  <a href="criar-conta.html">clique-aqui</a></p>
     </div>
-    <div>
-      <h1>Iniciar sessão</h1>
+    <div class="content-login">
+      <h1>Comece agora</h1>
       <h2>Sistema de Vendas de Imóveis</h2>
     </div>
   </body>
